@@ -1,0 +1,6 @@
+cat << 'EOF' | base64 -d | openssl aes-256-ecb -d -pbkdf2 | gzip -d
+U2FsdGVkX19krqSxg6nI9sLUTTJyq1Zn4Fy9cGMBgTEZU8P9T5HJamvxyIPxaw4sSD3yxWjpJpDN
+Q+3bXNjXYsMO1MHJawvvjYHxrcNYWtAKTubS4TN6/1y0y+prG8+Mclj+/2pLWLJHH2qkiD58lUzN
+o6AptBUlt7YNH+BUBa8ORQanPfOjCe7wtDFbn7jy1uV5HhmGl2ZClihgENVGh4Y+5SY7J7OakKyK
+xyMsEH7HLIC9XQmQG8HR+r2fmuKiiLigQIMl+2v2R3ROlvrz4V5u7afGA4Ke8GEnLUGFBp0=
+EOF
